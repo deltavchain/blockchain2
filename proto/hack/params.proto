@@ -1,0 +1,12 @@
+syntax = "proto3";
+package hacker.hack;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "hacker/x/hack/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}

@@ -1,8 +1,14 @@
 // THIS FILE IS GENERATED AUTOMATICALLY. DO NOT MODIFY.
 
+import HackerBlog from './hacker.blog'
+import HackerCreate from './hacker.create'
+import HackerHack from './hacker.hack'
 
 
 export default { 
+  HackerBlog: load(HackerBlog, 'hacker.blog'),
+  HackerCreate: load(HackerCreate, 'hacker.create'),
+  HackerHack: load(HackerHack, 'hacker.hack'),
   
 }
 
